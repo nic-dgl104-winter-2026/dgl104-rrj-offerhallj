@@ -12,6 +12,9 @@
     - [Read OOP Documentation](#read-the-oop-documentation)
     - [Follow-up Questions](#follow-up-questions-and-reflections)
 - [Project Reflection](#project-reflection)
+    - [Chosen Language and Database Considerations](#chosen-language-and-database-decisions)
+    - [Challenged](#challenges)
+    - [Architecture](#architecture)
 
 
 
@@ -271,3 +274,4 @@ When I first implemented my database functions, I used these callback methods to
 I'm not sure why I didn't go with the implementation from the start. I suppose I didn't think I would need to be updating my tasklist in real time so it seemed unnecessary to implement the Observer pattern, but as I worked on the project and decided to implement the task searching and filtering functionality, I realized might have been better served to have gone with the viewmodel from the start.
 
 In the end, I did end up creating a similar pattern in my ViewHolder class (which holds the current View/filtration options for the tasklist), but the LoginService and TaskService still function using callback methods.
+
